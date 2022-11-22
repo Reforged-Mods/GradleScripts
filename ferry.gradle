@@ -22,7 +22,7 @@ apply plugin: 'maven-publish'
 
 apply from: 'https://raw.githubusercontent.com/Reforged-Mods/GradleScripts/2.5-arch-loom/fabric-mod.gradle'
 
-version = getVersion()
+//version = getVersion()
 
 ext.curseReleaseType = "release"
 ext.releaseChangelog = "No Changelog Available"
